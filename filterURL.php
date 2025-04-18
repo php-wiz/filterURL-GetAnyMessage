@@ -84,20 +84,20 @@ $out3 = $result1['out3'] ?? null; // id message
 # GROUP / CHANNEL 
 # PRIVATE
 
-// .... your logic
+// .... your logic here
 }
 
 }elseif($out1 === 'b' || $out1 === 'B') {
 $out3 = $result1['out3'] ?? null; // id message
 # BOT
 
-// .... your logic
+// .... your logic here
 
 }elseif($out1 === 'u' || $out1 === 'U') {
 $out3 = $result1['out3'] ?? null; // id message
 # USER
 
-// .... your logic
+// .... your logic here
 
 }else{
 
@@ -110,7 +110,7 @@ $out2 = $result1['out2'] ?? null; // id message
 # GROUP / CHANNEL 
 # PUBLIC
 
-// .... your logic
+// .... your logic here
 
 }
 
