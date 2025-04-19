@@ -1,8 +1,6 @@
 # channel post
 
-## how to use?
-
-## telegram url format is valid format to use
+## valid format to use
 **public:** 
 ```https://t.me/username/id```
 
