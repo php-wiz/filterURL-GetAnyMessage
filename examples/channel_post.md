@@ -1,4 +1,4 @@
-# channel comment
+# channel post
 
 ## how to use?
 
