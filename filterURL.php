@@ -4,7 +4,9 @@
 
 Function to filter the chat type by telegram url with custom filters: (b/u) 
 
-all type of chats: channel/group/user/bot || public/private
+all type of chats: channel/group/user/bot || public/private || channel comment & topics groups
+
+For all supported formats, go to the examples folder.
 
 ( From my project: @GetAnyMessageRobot )
 
@@ -84,20 +86,20 @@ $out3 = $result1['out3'] ?? null; // id message
 # GROUP / CHANNEL 
 # PRIVATE
 
-// .... your logic
+// .... your logic here
 }
 
 }elseif($out1 === 'b' || $out1 === 'B') {
 $out3 = $result1['out3'] ?? null; // id message
 # BOT
 
-// .... your logic
+// .... your logic here
 
 }elseif($out1 === 'u' || $out1 === 'U') {
 $out3 = $result1['out3'] ?? null; // id message
 # USER
 
-// .... your logic
+// .... your logic here
 
 }else{
 
@@ -110,7 +112,7 @@ $out2 = $result1['out2'] ?? null; // id message
 # GROUP / CHANNEL 
 # PUBLIC
 
-// .... your logic
+// .... your logic here
 
 }
 

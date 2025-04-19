@@ -26,10 +26,10 @@ $out5 = $result1['out5'] ?? null; // PATH URL 5
 **info:** 
 ```php
 PATH URL 1 ($out1):
-if path is c/C = private chat(group/channel)
-if path is u/U = user chat
-if path is b/B = chat bot
-else = (username) so its public channel/group 
+if path is c/C = private chat(group/channel).
+if path is u/U = user chat.
+if path is b/B = chat bot.
+else = (username) so its public channel/group.
 
 *checks if path does not start with + to filter out invitation links.
 *Check only on Telegram links.
