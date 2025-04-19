@@ -1,6 +1,4 @@
-# group message
-
-## how to use?
+# topics group message
 
 ## valid format to use
 **public:** 
